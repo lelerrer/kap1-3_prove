@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <title>Tall</title>
+    <style>
+        table{
+            padding: 12px 15px;
+            background-color: azure;
+            width: 50rem;
+            height: auto;
+        }
+        thead{
+            background-color: #e74c3c;
+        }
+        thead th{
+            color: white;
+            padding: 12px 15px;
+        }
+        td{
+            padding: 12px 15px;
+        }
+        #toprow{
+            font-weight: bold;
+        }
+        tbody tr:nth-child(odd){
+            background-color: #f2f2f2;
+        }
+        tbody tr:nth-child(even){
+            background-color: white;
+        }
+        #total{
+            background-color: #3498db;
+        }
+        #total td{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">År</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="toprow">
+                <td>Måned</td>
+                <td>Tjent</td>
+            </tr>
+            <tr>
+                <td>januar</td>
+                <td>12 500kr</td>
+            </tr>
+            <tr>
+                <td>februar</td>
+                <td>17 800kr</td>
+            </tr>
+            <tr>
+                <td>mars</td>
+                <td>28 300kr</td>
+            </tr>
+            <tr>
+                <td>april</td>
+                <td>15 750kr</td>
+            </tr>
+            <tr>
+                <td>mai</td>
+                <td>14 900kr</td>
+            </tr>
+            <tr>
+                <td>juni</td>
+                <td>11 200kr</td>
+            </tr>
+            <tr>
+                <td>juli</td>
+                <td>16 400kr</td>
+            </tr>
+            <tr>
+                <td>august</td>
+                <td>17 600kr</td>
+            </tr>
+            <tr>
+                <td>september</td>
+                <td>12 500kr</td>
+            </tr>
+            <tr>
+                <td>oktober</td>
+                <td>23 200kr</td>
+            </tr>
+            <tr>
+                <td>november</td>
+                <td>18 900kr</td>
+            </tr>
+            <tr>
+                <td>desember</td>
+                <td>13 700kr</td>
+            </tr>
+            <tr id="total">
+                <td>Totalt</td>
+                <td>202 750kr</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
